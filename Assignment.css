@@ -1,0 +1,309 @@
+/* Center the text in .main-header */
+.main-header {
+  text-align: -webkit-center;
+}
+
+/* Arrange items in .navbar-section with space around */
+.navbar-section {
+  justify-content: space-around;
+}
+
+/* Set color and size for .icon */
+.icon {
+  color: white;
+}
+
+/* Set font size for .text-size */
+.text-size {
+  font-size: small;
+}
+
+/* Style for .card-icon */
+.card-icon {
+  height: 85px;
+  width: 85px;
+  margin-top: 100px;
+}
+
+/* Style for .landing-page */
+.landing-page {
+  position: relative;
+  text-align: center;
+}
+
+/* Style for .text inside .landing-page */
+.text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  background-color: #0c0d0d5e;
+  padding: 20px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+/* Style for .landing-page-image */
+.landing-page-image {
+  width: 100%;
+  height: 100%;
+}
+
+/* Style for .card-style */
+.card-style {
+  font-weight: 700;
+  width: 45%;
+  border: 2px solid grey;
+  text-align-last: auto;
+  padding: 10px;
+  font-size: x-large;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+
+/* Set color, font size, and margin for .icon */
+.icon {
+  color: black;
+  font-size: 100px;
+  margin-top: 10px;
+}
+
+/* Hover effect for .icon */
+.icon:hover {
+  color: red;
+  cursor: pointer;
+}
+
+/* Transition effect for .card */
+.card {
+  transition: box-shadow 0.2s;
+}
+
+/* Hover effect for .card */
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Style for .strip and .strip-1 */
+.strip,
+.strip-1 {
+  height: 150px;
+  text-align: start;
+  padding-left: 15px;
+  padding-top: 10px;
+  width: 300px;
+}
+
+/* Pseudo element for .strip */
+.strip::after {
+  content: "";
+  position: absolute;
+  top: 114px;
+  left: -40px;
+  border-style: solid;
+  border-width: 35px 44px 0px 0;
+  border-color: transparent #f8f9fa transparent transparent;
+}
+
+/* Pseudo element for .strip-1 */
+.strip-1::after {
+  content: "";
+  position: absolute;
+  top: 78px;
+  left: 295px;
+  border-style: solid;
+  border-width: 35px 44px 36px 0;
+  border-color: transparent transparent #f8f9fa transparent;
+}
+
+/* Style for .nav-link */
+.nav-link {
+  color: red;
+}
+
+/* Hover effect for <a> tags */
+a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/* Style for <a> tags */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Background image and size for .about-section-card */
+.about-section-card {
+  background-image: url(./Images/building.jpg);
+  height: 130px;
+  background-size: 300px 130px;
+  width: 290px;
+  margin-bottom: 15px;
+}
+
+/* Style for .about-section-info */
+.about-section-info {
+  border-left: 2px solid red;
+  padding-left: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Background image for .work-assigned-section */
+.work-assigned-section {
+  background-image: url(./Images/background-2.jpg);
+  padding-top: 30px;
+}
+
+/* Style for .work-assigned-cards */
+.work-assigned-cards {
+  position: relative;
+  top: 95px;
+  background-color: white;
+  width: 200px;
+  padding: 20px;
+}
+
+/* Background image for .analysis-section */
+.analysis-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-image: url(../../Downloads/istockphoto-1139397586-1024x1024.jpg);
+}
+
+/* Style for .analysis-cards */
+.analysis-cards {
+  text-align: start;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+/* Style for .meet-team-cards */
+.meet-team-cards {
+  width: 18rem;
+  border: 0px;
+}
+
+/* Style for .tab-panes-visible */
+.tab-panes-visible {
+  margin: 45px;
+  text-align-last: center;
+  background-color: rgb(245, 239, 239);
+  padding: 50px;
+}
+
+/* Background image for .quality-section */
+.quality-section {
+  background-image: url(./Images/Home-1.jpg);
+  background-position-x: center;
+}
+
+/* Style for .qulaity-cards */
+.qulaity-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0000005c;
+}
+
+/* Style for .testimonial-section */
+.testimonial-section {
+  text-align: start;
+  padding-left: 15px;
+  padding-top: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Style for .contact-section */
+.contact-section {
+  width: 260px;
+  background-color: rgb(225, 230, 228);
+  text-align-last: center;
+}
+
+/* Style for .contact-media-icons */
+.contact-media-icons {
+  display: ruby-text;
+  width: 140px;
+}
+
+/* Style for .latest-update-section */
+.latest-update-section {
+  height: 240px;
+  text-align: start;
+  padding-left: 15px;
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Style for .latest-update-cards */
+.latest-update-cards {
+  height: 240px;
+  text-align: start;
+  padding-left: 15px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.general-font-size {
+  font-size: smaller;
+  padding: 15px;
+}
+
+/* Style for home icon */
+.icon-style {
+  position: relative;
+  top: -28%;
+  background: #fff;
+  width: 60px;
+  text-align: center;
+  height: 60px;
+  border-radius: 73px;
+  padding-top: 14px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  font-size: 35px;
+}
+
+/* Media query for screens smaller than 1000px */
+@media (max-width: 1000px) {
+  /* Change flex direction to column */
+  .stack-card-vertically {
+    flex-direction: column; /* Stack items vertically */
+    align-content: center;
+  }
+
+  .qulaity-header {
+    padding-left: 0px !important;
+  }
+
+  .stack-vertically-centrally {
+    align-content: center;
+    text-align: -webkit-center;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .stack-footer-vertically {
+    flex-direction: column; /* Stack items vertically */
+    align-content: center;
+    gap: 15px;
+  }
+}
+
+.align-webkit-center {
+  text-align: -webkit-center;
+}
